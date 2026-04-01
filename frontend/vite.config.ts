@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { storybookTest } from '@storybook/addon-vitest/vitest-plugin';
 import { playwright } from '@vitest/browser-playwright';
 const dirname = typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
-const playwrightProviderOptions = process.env.STORYBOOK_TEST_SCREENSHOTS_RETINA === 'true'
+const playwrightProviderOptions = process.env.STORYBOOK_TEST_SCREENSHOTS === 'true'
   ? { contextOptions: { deviceScaleFactor: 2 } }
   : {};
 
