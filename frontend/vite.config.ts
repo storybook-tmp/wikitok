@@ -10,6 +10,9 @@ import { fileURLToPath } from 'node:url';
 import { storybookTest } from '@storybook/addon-vitest/vitest-plugin';
 import { playwright } from '@vitest/browser-playwright';
 const dirname = typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
+const playwrightProviderOptions = process.env.STORYBOOK_TEST_SCREENSHOTS_RETINA === 'true'
+  ? { contextOptions: { deviceScaleFactor: 2 } }
+  : {};
 
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
@@ -52,7 +55,7 @@ export default defineConfig({
         browser: {
           enabled: true,
           headless: true,
-          provider: playwright({}),
+          provider: playwright(playwrightProviderOptions),
           instances: [{
             browser: 'chromium'
           }]
