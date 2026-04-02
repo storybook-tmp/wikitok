@@ -1,6 +1,18 @@
+import '../src/index.css';
+import '../src/styles/Article.css';
+
 import type { Preview } from '@storybook/react-vite';
 
+import { LikedArticlesProvider } from '../src/contexts/LikedArticlesContext';
+
 const preview: Preview = {
+  decorators: [
+    (Story) => (
+      <LikedArticlesProvider>
+        <Story />
+      </LikedArticlesProvider>
+    ),
+  ],
   parameters: {
     controls: {
       matchers: {
