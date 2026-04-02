@@ -1,7 +1,15 @@
 {/* Transcript renderer copied directly from ~/code/github/mcp/eval/templates/result-docs/transcript.tsx and transcript.types.ts */}
-import data from '../../../eval-results/data.json';
+import {
+  emptyTranscriptText,
+  hasTranscript,
+  transcriptProps,
+} from './eval-data.ts';
 import { Transcript } from './transcript';
 
 # Transcript
 
-<Transcript {...data.docs.transcript} />
+{!hasTranscript ? (
+  <blockquote>{emptyTranscriptText}</blockquote>
+) : (
+  <Transcript {...transcriptProps} />
+)}
