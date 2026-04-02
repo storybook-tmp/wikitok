@@ -1,14 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-
 import { expect, userEvent, within } from 'storybook/test';
-
 import { Page } from './Page';
 
 const meta = {
-  title: 'Example/Page',
+  title: 'AI Generated/Medium/Page',
   component: Page,
   parameters: {
-    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
 } satisfies Meta<typeof Page>;
@@ -16,10 +13,9 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const LoggedOut: Story = {};
+export const GuestView: Story = {};
 
-// More on component testing: https://storybook.js.org/docs/writing-tests/interaction-testing
-export const LoggedIn: Story = {
+export const AuthenticatedView: Story = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
     const loginButton = canvas.getByRole('button', { name: /Log in/i });
