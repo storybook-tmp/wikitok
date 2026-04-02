@@ -1,23 +1,258 @@
 {
-  "empty": true,
+  "schemaVersion": 2,
   "project": {
-    "name": "wikitok"
+    "name": "wikitok",
+    "repo": "https://github.com/storybook-tmp/wikitok",
+    "branch": "main",
+    "githubSlug": "storybook-tmp/wikitok",
+    "projectDir": "frontend",
+    "description": "Simple project with Tailwind"
   },
-  "prompt": "",
   "variant": {
-    "agent": "",
-    "model": "",
-    "effort": ""
+    "agent": "claude",
+    "model": "sonnet-4.6",
+    "effort": "medium"
   },
-  "score": {
-    "score": 0
+  "timestamp": "2026-04-02T04:12:05.161Z",
+  "prompt": "setup",
+  "baselineCommit": "b58208cf5dffafa3bd76b32279490760d0544ece",
+  "execution": {
+    "duration": 558,
+    "turns": 0
   },
   "grade": {
-    "buildSuccess": false,
+    "buildSuccess": true,
     "typeCheckErrors": 0,
-    "fileChanges": []
+    "fileChanges": [
+      {
+        "path": "eval-results/environment.json",
+        "gitStatus": "A"
+      },
+      {
+        "path": "eval-results/prompt.md",
+        "gitStatus": "A"
+      },
+      {
+        "path": "eval-results/transcript.json",
+        "gitStatus": "M"
+      },
+      {
+        "path": "frontend/.storybook/preview.ts",
+        "gitStatus": "M"
+      },
+      {
+        "path": "frontend/src/App.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/components/Article.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/components/ArticleList.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/components/LanguageSelector.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/components/WikiCard.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/contexts/LikedArticlesContext.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/stories/AIButton.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/stories/AIHeader.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/stories/AIPage.stories.ts",
+        "gitStatus": "A"
+      }
+    ],
+    "storybookChanges": [
+      {
+        "path": "frontend/.storybook/preview.ts",
+        "gitStatus": "M"
+      },
+      {
+        "path": "frontend/src/App.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/components/Article.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/components/ArticleList.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/components/LanguageSelector.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/components/WikiCard.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/contexts/LikedArticlesContext.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/stories/AIButton.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/stories/AIHeader.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "frontend/src/stories/AIPage.stories.ts",
+        "gitStatus": "A"
+      }
+    ],
+    "ghostStories": {
+      "candidateCount": 6,
+      "total": 6,
+      "passed": 3,
+      "successRate": 0.5
+    }
+  },
+  "score": {
+    "score": 0.71,
+    "breakdown": {
+      "build": 1,
+      "typecheck": 1,
+      "ghostStories": 0.5,
+      "performance": 0.09
+    }
   },
   "publish": {
-    "screenshots": []
+    "branch": "trial/2026-04-02T04-12-05-wikitok-claude-sonnet-4.6-setup-1d075c40",
+    "labels": [
+      "eval",
+      "project:wikitok",
+      "agent:claude",
+      "model:sonnet-4.6",
+      "effort:medium",
+      "prompt:setup"
+    ],
+    "summaryUrl": "https://github.com/storybook-tmp/wikitok/blob/trial/2026-04-02T04-12-05-wikitok-claude-sonnet-4.6-setup-1d075c40/eval-results/summary.json",
+    "transcriptUrl": "https://github.com/storybook-tmp/wikitok/blob/trial/2026-04-02T04-12-05-wikitok-claude-sonnet-4.6-setup-1d075c40/eval-results/transcript.json",
+    "screenshots": [
+      {
+        "storyFilePath": "frontend/src/App.stories.ts",
+        "exportName": "Default",
+        "imagePath": "frontend/src/App.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/App.stories.ts",
+        "exportName": "Loading",
+        "imagePath": "frontend/src/App.stories.Loading.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/Article.stories.ts",
+        "exportName": "Default",
+        "imagePath": "frontend/src/components/Article.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/Article.stories.ts",
+        "exportName": "WithImage",
+        "imagePath": "frontend/src/components/Article.stories.WithImage.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/ArticleList.stories.ts",
+        "exportName": "Default",
+        "imagePath": "frontend/src/components/ArticleList.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/ArticleList.stories.ts",
+        "exportName": "Empty",
+        "imagePath": "frontend/src/components/ArticleList.stories.Empty.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/ArticleList.stories.ts",
+        "exportName": "WithImages",
+        "imagePath": "frontend/src/components/ArticleList.stories.WithImages.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/LanguageSelector.stories.tsx",
+        "exportName": "Default",
+        "imagePath": "frontend/src/components/LanguageSelector.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/LanguageSelector.stories.tsx",
+        "exportName": "InDarkContainer",
+        "imagePath": "frontend/src/components/LanguageSelector.stories.InDarkContainer.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/WikiCard.stories.ts",
+        "exportName": "WithImage",
+        "imagePath": "frontend/src/components/WikiCard.stories.WithImage.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/components/WikiCard.stories.ts",
+        "exportName": "WithoutImage",
+        "imagePath": "frontend/src/components/WikiCard.stories.WithoutImage.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/contexts/LikedArticlesContext.stories.tsx",
+        "exportName": "Default",
+        "imagePath": "frontend/src/contexts/LikedArticlesContext.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/contexts/LikedArticlesContext.stories.tsx",
+        "exportName": "WithPrelikedArticle",
+        "imagePath": "frontend/src/contexts/LikedArticlesContext.stories.WithPrelikedArticle.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/stories/AIButton.stories.ts",
+        "exportName": "Large",
+        "imagePath": "frontend/src/stories/AIButton.stories.Large.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/stories/AIButton.stories.ts",
+        "exportName": "Primary",
+        "imagePath": "frontend/src/stories/AIButton.stories.Primary.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/stories/AIButton.stories.ts",
+        "exportName": "Secondary",
+        "imagePath": "frontend/src/stories/AIButton.stories.Secondary.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/stories/AIButton.stories.ts",
+        "exportName": "Small",
+        "imagePath": "frontend/src/stories/AIButton.stories.Small.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/stories/AIHeader.stories.ts",
+        "exportName": "LoggedIn",
+        "imagePath": "frontend/src/stories/AIHeader.stories.LoggedIn.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/stories/AIHeader.stories.ts",
+        "exportName": "LoggedOut",
+        "imagePath": "frontend/src/stories/AIHeader.stories.LoggedOut.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/stories/AIPage.stories.ts",
+        "exportName": "Default",
+        "imagePath": "frontend/src/stories/AIPage.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "frontend/src/stories/AIPage.stories.ts",
+        "exportName": "SecondView",
+        "imagePath": "frontend/src/stories/AIPage.stories.SecondView.chromium.png"
+      }
+    ]
   }
 }
