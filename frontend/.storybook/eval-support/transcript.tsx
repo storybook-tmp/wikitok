@@ -587,28 +587,16 @@ export const Transcript = (props: TranscriptProps) => {
 			</h2>
 
 			{prompt && (
-				<details
-					style={{
-						marginBottom: '1.5rem',
-						border: '1px solid #e5e7eb',
-						borderRadius: '8px',
-						padding: '1rem',
-						backgroundColor: '#f9fafb',
-					}}
+				<Turn
+					type="prompt"
+					title="User Prompt"
+					tokenCount={`${promptTokenCount.toLocaleString()} tokens`}
+					percentage={(promptTokenCount / totalMessageTokens) * 100}
 				>
-					<summary
-						style={{
-							cursor: 'pointer',
-							fontWeight: 600,
-						}}
-					>
-						Full prompt
-						{promptTokenCount > 0 ? ` (${promptTokenCount.toLocaleString()} tokens)` : ''}
-					</summary>
-					<div style={{ marginTop: '1rem' }}>
+					<ContentSection label="Prompt">
 						<CodeBlock content={prompt} language="markdown" />
-					</div>
-				</details>
+					</ContentSection>
+				</Turn>
 			)}
 
 			{groupedTurns.map((group, index) => {
