@@ -1,0 +1,8 @@
+RUN  v4.1.2 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T11-21-56Z-1f2c52f7/project/frontend
+
+Port 63315 is in use, trying another one...
+
+ Test Files  5 passed (5)
+      Tests  12 passed (12)
+   Start at  18:38:10
+   Duration  8.06s (transform 0ms, setup 12.91s, import 591ms, tests 14.76s, environment 0ms)
