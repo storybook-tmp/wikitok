@@ -1,0 +1,7 @@
+RUN  v4.1.2 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-10T11-24-36Z-b70d92ed/project/frontend
+
+
+ Test Files  5 passed (5)
+      Tests  14 passed (14)
+   Start at  18:35:40
+   Duration  7.33s (transform 0ms, setup 9.78s, import 469ms, tests 13.72s, environment 0ms)
