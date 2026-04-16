@@ -1,0 +1,115 @@
+
+┌  Building storybook v0.0.0-pr-34421-sha-8babe7bc
+│
+◇  Cleaning outputDir: storybook-static
+│
+◇  Loading presets
+│
+◇  Building manager..
+│
+●  Building preview..
+│  Vite vite v6.0.11 building for production...
+│  Vite transforming...
+│
+●  Copying static files: public at storybook-static
+│  Vite ✓ 1985 modules transformed.
+│  Vite rendering chunks...
+│  Vite computing gzip size...
+│  Vite storybook-static/registerSW.js
+│  0.14 kB
+│  Vite storybook-static/manifest.webmanifest
+│  0.23 kB
+│  Vite storybook-static/assets/context-C0qIqeS4.png
+│  6.12 kB
+│  Vite storybook-static/assets/styling-Bk6zjRzU.png
+│  7.24 kB
+│  Vite storybook-static/iframe.html
+│  18.96 kB │ gzip:   5.34 kB
+│  Vite storybook-static/assets/docs---vsFbMi.png
+│  27.88 kB
+│  Vite storybook-static/assets/share-DGA-UcQf.png
+│  40.77 kB
+│  Vite storybook-static/assets/accessibility-W_h2acOZ.png
+│  42.34 kB
+│  Vite storybook-static/assets/figma-plugin-CH2hELiO.png
+│  44.25 kB
+│  Vite storybook-static/assets/theming-D6WJLNoW.png
+│  44.37 kB
+│  Vite storybook-static/assets/testing-cbzR9l9r.png
+│  49.31 kB
+│  Vite storybook-static/assets/addon-library-BWUCAmyN.png
+│  467.37 kB
+│  Vite storybook-static/assets/iframe-tlKKHSjy.css
+│  35.56 kB │ gzip:   8.31 kB
+│  Vite storybook-static/assets/formatter-EIJCOSYU-BTGi2hnA.js
+│  0.27 kB │ gzip:   0.22 kB
+│  Vite storybook-static/assets/index-DkQ1Uuif.js
+│  0.39 kB │ gzip:   0.26 kB
+│  Vite storybook-static/assets/react-18-DpkhA7B0.js
+│  0.93 kB │ gzip:   0.53 kB
+│  Vite storybook-static/assets/preload-helper-C1FmrZbK.js
+│  1.14 kB │ gzip:   0.68 kB
+│  Vite storybook-static/assets/DocsRenderer-LL677BLK-HjaJzq29.js
+│  1.27 kB │ gzip:   0.71 kB
+│  Vite storybook-static/assets/summary-DVK497-z.js
+│  2.52 kB │ gzip:   0.71 kB
+│  Vite storybook-static/assets/WikiCard-BYJEz7V8.js
+│  3.03 kB │ gzip:   1.37 kB
+│  Vite storybook-static/assets/WikiCard.stories-8Kf_n0S5.js
+│  3.47 kB │ gzip:   1.07 kB
+│  Vite storybook-static/assets/LanguageSelector.stories-Bd29Ierb.js
+│  3.53 kB │ gzip:   0.98 kB
+│  Vite storybook-static/assets/LanguageSelector-9T-4QEsf.js
+│  9.63 kB │ gzip:   2.17 kB
+│  Vite storybook-static/assets/transcript-C9BF4WH3.js
+│  14.33 kB │ gzip:   4.85 kB
+│  Vite storybook-static/assets/App.stories-CI1_rz11.js
+│  15.11 kB │ gzip:   4.75 kB
+│  Vite storybook-static/assets/Configure-CqoWfNW9.js
+│  26.17 kB │ gzip:  11.04 kB
+│  Vite storybook-static/vite-inject-mocker-entry.js
+│  28.53 kB │ gzip:   9.94 kB
+│  Vite storybook-static/assets/matchers-5TDFFDYO-CJYk-zim.js
+│  29.35 kB │ gzip:  10.06 kB
+│  Vite storybook-static/assets/Color-23OOGO2C-Bcsy115A.js
+│  30.32 kB │ gzip:  11.47 kB
+│  Vite storybook-static/assets/WithTooltip-65CFNBJE-BgF3RjZe.js
+│  33.19 kB │ gzip:  11.66 kB
+│  Vite storybook-static/assets/syntaxhighlighter-OH4MV7E3-eHt9qmXB.js
+│  78.02 kB │ gzip:  27.40 kB
+│  Vite storybook-static/assets/index-Bri5NRSl.js
+│  134.21 kB │ gzip:  43.17 kB
+│  Vite storybook-static/assets/axe-CP7qBGj9.js
+│  580.09 kB │ gzip: 159.81 kB
+│  Vite storybook-static/assets/blocks-CuoEEuam.js
+│  826.93 kB │ gzip: 264.36 kB
+│  Vite storybook-static/assets/iframe-DQuYJpW5.js
+│  1,358.48 kB │ gzip: 406.71 kB
+│  Vite storybook-static/assets/data-_a2YxC8Q.js
+│  2,215.16 kB │ gzip: 296.56 kB
+│
+▲  Vite
+│  (!) Some chunks are larger than 500 kB after minification. Consider:
+│  - Using dynamic import() to code-split the application
+│  - Use build.rollupOptions.output.manualChunks to improve chunking:
+│  ]8;;https://rollupjs.org/configuration-options/#output-manualchunkshttps://rollupjs.org/configuration-options/#output-manualchunks]8;;
+│  - Adjust chunk size limit for this warning via
+│  build.chunkSizeWarningLimit.
+│  Vite ✓ built in 4.91s
+
+PWA v0.21.1
+mode      generateSW
+precache  41 entries (10860.15 KiB)
+files generated
+  storybook-static/sw.js
+  storybook-static/workbox-5ffe50d4.js
+│
+◇  Output directory:
+│  /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-10T14-42-01Z-b2062380/project/frontend/storybook-static
+│
+└  Storybook build completed successfully
+
+
+Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
