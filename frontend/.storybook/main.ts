@@ -1,11 +1,13 @@
 import type { StorybookConfig } from '@storybook/react-vite';
+import tailwindcss from '@tailwindcss/vite';
+import { mergeConfig } from 'vite';
 
 const config: StorybookConfig = {
   stories: [
-    '../src/**/*.mdx',
-    '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+    '../src/**/*.stories.@(ts|tsx)',
     './eval-support/*.mdx',
   ],
+  staticDirs: ['../public'],
   addons: [
     '@chromatic-com/storybook',
     '@storybook/addon-vitest',
@@ -14,6 +16,10 @@ const config: StorybookConfig = {
     '@storybook/addon-onboarding',
   ],
   framework: '@storybook/react-vite',
+  viteFinal: async (config) =>
+    mergeConfig(config, {
+      plugins: [tailwindcss()],
+    }),
 };
 
 export default config;
