@@ -1,0 +1,4 @@
+@import "../src/index.css";
+@source "../src";
+@import "../src/assets/heartAnimation.css";
+@import "../src/styles/Article.css";
