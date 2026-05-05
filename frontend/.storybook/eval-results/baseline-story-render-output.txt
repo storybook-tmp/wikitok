@@ -1,0 +1,5 @@
+Port 63315 is in use, trying another one...
+JSON report written to /Users/yannbraga/open-source/storybook-eval/trials/2026-04-28T22-59-44Z-05baa7f6/project/frontend/.storybook/eval-results/baseline-story-render-report.json
+
+$ vitest run --project=storybook "--reporter=json" "--outputFile=/Users/yannbraga/open-source/storybook-eval/trials/2026-04-28T22-59-44Z-05baa7f6/project/frontend/.storybook/eval-results/baseline-story-render-report.json" "/Users/yannbraga/open-source/storybook-eval/trials/2026-04-28T22-59-44Z-05baa7f6/project/frontend/src/App.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-04-28T22-59-44Z-05baa7f6/project/frontend/src/components/Article.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-04-28T22-59-44Z-05baa7f6/project/frontend/src/components/ArticleList.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-04-28T22-59-44Z-05baa7f6/project/frontend/src/components/LanguageSelector.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-04-28T22-59-44Z-05baa7f6/project/frontend/src/components/WikiCard.stories.tsx"
+error: script "vitest:storybook" exited with code 1
