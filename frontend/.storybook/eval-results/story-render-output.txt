@@ -1,0 +1,7 @@
+│
+▲  No story files found for the specified pattern: src/**/*.mdx
+Re-optimizing dependencies because vite config has changed
+Port 63315 is in use, trying another one...
+JSON report written to /Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T15-59-00Z-72e90c4e/project/frontend/.storybook/eval-results/story-render-report.json
+
+$ vitest run --project=storybook "--reporter=json" "--outputFile=/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T15-59-00Z-72e90c4e/project/frontend/.storybook/eval-results/story-render-report.json" "/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T15-59-00Z-72e90c4e/project/frontend/src/components/Article.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T15-59-00Z-72e90c4e/project/frontend/src/components/ArticleList.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T15-59-00Z-72e90c4e/project/frontend/src/components/LanguageSelector.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T15-59-00Z-72e90c4e/project/frontend/src/components/WikiCard.stories.tsx"
