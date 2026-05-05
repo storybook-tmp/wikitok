@@ -1,0 +1,7 @@
+│
+▲  No story files found for the specified pattern: src/**/*.mdx
+Port 63315 is in use, trying another one...
+JSON report written to /Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T21-11-09Z-a1dca0e6/project/frontend/.storybook/eval-results/baseline-story-render-report.json
+
+$ vitest run --project=storybook "--reporter=json" "--outputFile=/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T21-11-09Z-a1dca0e6/project/frontend/.storybook/eval-results/baseline-story-render-report.json" "/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T21-11-09Z-a1dca0e6/project/frontend/src/components/Article.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T21-11-09Z-a1dca0e6/project/frontend/src/components/ArticleList.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T21-11-09Z-a1dca0e6/project/frontend/src/components/LanguageSelector.stories.tsx" "/Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T21-11-09Z-a1dca0e6/project/frontend/src/components/WikiCard.stories.tsx"
+error: script "vitest:storybook" exited with code 1
