@@ -1,7 +1,22 @@
 import type { Preview } from '@storybook/react-vite';
+import '../src/index.css';
+import { initialize, mswLoader } from 'msw-storybook-addon';
+import { LikedArticlesProvider } from '../src/contexts/LikedArticlesContext';
+import { mswHandlers } from './msw-handlers';
+
+initialize({ onUnhandledRequest: 'bypass' });
 
 const preview: Preview = {
+  decorators: [
+    (Story) => (
+      <LikedArticlesProvider>
+        <Story />
+      </LikedArticlesProvider>
+    ),
+  ],
+  loaders: [mswLoader],
   parameters: {
+    msw: { handlers: mswHandlers },
     controls: {
       matchers: {
         color: /(background|color)$/i,
