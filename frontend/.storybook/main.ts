@@ -2,10 +2,11 @@ import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
   stories: [
-    '../src/**/*.mdx',
-    '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+    '../src/App.stories.@(js|jsx|mjs|ts|tsx)',
+    '../src/components/**/*.stories.@(js|jsx|mjs|ts|tsx)',
     './eval-support/*.mdx',
   ],
+  staticDirs: ['../public'],
   addons: [
     '@chromatic-com/storybook',
     '@storybook/addon-vitest',
