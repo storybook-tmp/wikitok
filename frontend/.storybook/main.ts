@@ -1,8 +1,9 @@
 import type { StorybookConfig } from '@storybook/react-vite';
+import tailwindcss from '@tailwindcss/vite';
 
 const config: StorybookConfig = {
+  staticDirs: ['../public'],
   stories: [
-    '../src/**/*.mdx',
     '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
     './eval-support/*.mdx',
   ],
@@ -14,6 +15,10 @@ const config: StorybookConfig = {
     '@storybook/addon-onboarding',
   ],
   framework: '@storybook/react-vite',
+  viteFinal: async (config) => {
+    config.plugins = [...(config.plugins ?? []), tailwindcss()];
+    return config;
+  },
 };
 
 export default config;
