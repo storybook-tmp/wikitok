@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import '../styles/Article.css';
 
 interface ArticleProps {
   title: string;
