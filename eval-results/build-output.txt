@@ -1,0 +1,141 @@
+
+┌  Building storybook v0.0.0-pr-34421-sha-0f73e3a9
+│
+◇  Cleaning outputDir: storybook-static
+│
+◇  Loading presets
+│
+◇  Building manager..
+│
+●  Building preview..
+│  Vite vite v6.0.11 building for production...
+│  Vite transforming...
+│  Vite ✓ 1773 modules transformed.
+│  Vite rendering chunks...
+│  Vite computing gzip size...
+│  Vite storybook-static/registerSW.js
+│  0.14 kB
+│  Vite storybook-static/manifest.webmanifest
+│  0.23 kB
+│  Vite storybook-static/assets/context-C0qIqeS4.png
+│  6.12 kB
+│  Vite storybook-static/assets/styling-Bk6zjRzU.png
+│  7.24 kB
+│  Vite storybook-static/iframe.html
+│  18.96 kB │ gzip:   5.34 kB
+│  Vite storybook-static/assets/docs---vsFbMi.png
+│  27.88 kB
+│  Vite storybook-static/assets/share-DGA-UcQf.png
+│  40.77 kB
+│  Vite storybook-static/assets/accessibility-W_h2acOZ.png
+│  42.34 kB
+│  Vite storybook-static/assets/figma-plugin-CH2hELiO.png
+│  44.25 kB
+│  Vite storybook-static/assets/theming-D6WJLNoW.png
+│  44.37 kB
+│  Vite storybook-static/assets/testing-cbzR9l9r.png
+│  49.31 kB
+│  Vite storybook-static/assets/addon-library-BWUCAmyN.png
+│  467.37 kB
+│  Vite storybook-static/assets/Header-Ck-SSN7O.css
+│  0.51 kB │ gzip:   0.30 kB
+│  Vite storybook-static/assets/Button-B2efaGtC.css
+│  0.52 kB │ gzip:   0.29 kB
+│  Vite storybook-static/assets/Page-CeeQJVdd.css
+│  0.91 kB │ gzip:   0.39 kB
+│  Vite storybook-static/assets/iframe-Bxe0VUeN.css
+│  36.14 kB │ gzip:   8.41 kB
+│  Vite storybook-static/assets/formatter-EIJCOSYU-DVDbxIIu.js
+│  0.27 kB │ gzip:   0.21 kB
+│  Vite storybook-static/assets/index-dL-yZksa.js
+│  0.39 kB │ gzip:   0.26 kB
+│  Vite storybook-static/assets/Article-DAIFsOiw.js
+│  0.72 kB │ gzip:   0.36 kB
+│  Vite storybook-static/assets/PageComplex.stories-BgVRMK-U.js
+│  0.81 kB │ gzip:   0.44 kB
+│  Vite storybook-static/assets/Header.stories-D9j4vnOZ.js
+│  0.89 kB │ gzip:   0.48 kB
+│  Vite storybook-static/assets/ButtonMedium.stories-B54lGCCB.js
+│  0.93 kB │ gzip:   0.47 kB
+│  Vite storybook-static/assets/react-18-D4cq3ndI.js
+│  0.93 kB │ gzip:   0.53 kB
+│  Vite storybook-static/assets/HeaderComplex.stories-BG8jnBgc.js
+│  0.95 kB │ gzip:   0.50 kB
+│  Vite storybook-static/assets/preload-helper-C1FmrZbK.js
+│  1.14 kB │ gzip:   0.68 kB
+│  Vite storybook-static/assets/Button-CFSmrI8d.js
+│  1.22 kB │ gzip:   0.60 kB
+│  Vite storybook-static/assets/DocsRenderer-LL677BLK-DFMZVkgy.js
+│  1.27 kB │ gzip:   0.71 kB
+│  Vite storybook-static/assets/Page.stories-CZTqm6Bd.js
+│  1.49 kB │ gzip:   0.64 kB
+│  Vite storybook-static/assets/Button.stories-Cbef2i7M.js
+│  1.51 kB │ gzip:   0.59 kB
+│  Vite storybook-static/assets/Article.stories-Bu9qGgGA.js
+│  1.56 kB │ gzip:   0.63 kB
+│  Vite storybook-static/assets/Header-BDESBdme.js
+│  1.79 kB │ gzip:   0.78 kB
+│  Vite storybook-static/assets/LoadingSpinner.stories-Dkmcfixd.js
+│  1.89 kB │ gzip:   0.92 kB
+│  Vite storybook-static/assets/ArticleList.stories-CBM-ZWzY.js
+│  1.97 kB │ gzip:   0.99 kB
+│  Vite storybook-static/assets/Page-DaJDqByB.js
+│  2.21 kB │ gzip:   1.05 kB
+│  Vite storybook-static/assets/ErrorMessage.stories-RykPbYzC.js
+│  2.34 kB │ gzip:   1.13 kB
+│  Vite storybook-static/assets/summary-DAzG-pR2.js
+│  2.52 kB │ gzip:   0.71 kB
+│  Vite storybook-static/assets/WikiCard.stories-cQBAgp-G.js
+│  4.33 kB │ gzip:   1.90 kB
+│  Vite storybook-static/assets/LanguageSelector.stories-CWFVcf3z.js
+│  10.30 kB │ gzip:   2.46 kB
+│  Vite storybook-static/assets/transcript-B_kJi-zS.js
+│  14.33 kB │ gzip:   4.85 kB
+│  Vite storybook-static/assets/Configure-IVgGeZgf.js
+│  26.17 kB │ gzip:  11.04 kB
+│  Vite storybook-static/vite-inject-mocker-entry.js
+│  28.53 kB │ gzip:   9.94 kB
+│  Vite storybook-static/assets/matchers-5TDFFDYO-CJYk-zim.js
+│  29.35 kB │ gzip:  10.06 kB
+│  Vite storybook-static/assets/Color-23OOGO2C-CUrovvB_.js
+│  30.32 kB │ gzip:  11.47 kB
+│  Vite storybook-static/assets/WithTooltip-65CFNBJE--N8Y-14r.js
+│  33.19 kB │ gzip:  11.66 kB
+│  Vite storybook-static/assets/syntaxhighlighter-OH4MV7E3-BfEJPTvk.js
+│  78.02 kB │ gzip:  27.40 kB
+│  Vite storybook-static/assets/data-A7GeIVlB.js
+│  119.40 kB │ gzip:  22.63 kB
+│  Vite storybook-static/assets/index-DL_B1Ywx.js
+│  134.21 kB │ gzip:  43.17 kB
+│  Vite storybook-static/assets/axe-K2VPammT.js
+│  580.09 kB │ gzip: 159.81 kB
+│  Vite storybook-static/assets/blocks-CkoodQYt.js
+│  826.93 kB │ gzip: 264.38 kB
+│  Vite storybook-static/assets/iframe-9dD6eihr.js
+│  1,101.51 kB │ gzip: 316.01 kB
+│
+▲  Vite
+│  (!) Some chunks are larger than 500 kB after minification. Consider:
+│  - Using dynamic import() to code-split the application
+│  - Use build.rollupOptions.output.manualChunks to improve chunking:
+│  ]8;;https://rollupjs.org/configuration-options/#output-manualchunkshttps://rollupjs.org/configuration-options/#output-manualchunks]8;;
+│  - Adjust chunk size limit for this warning via
+│  build.chunkSizeWarningLimit.
+│  Vite ✓ built in 8.60s
+
+PWA v0.21.1
+mode      generateSW
+precache  54 entries (8581.26 KiB)
+files generated
+  storybook-static/sw.js
+  storybook-static/workbox-5ffe50d4.js
+│
+◇  Output directory:
+│  /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T13-31-24Z-e151e51f/project/frontend/storybook-static
+│
+└  Storybook build completed successfully
+
+
+Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
