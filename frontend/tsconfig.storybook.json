@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.storybook.tsbuildinfo"
+  },
+  "include": [
+    "src",
+    ".storybook/mock-data.ts",
+    ".storybook/preview.tsx",
+    ".storybook/vercel-analytics-mock.tsx"
+  ],
+  "exclude": [
+    "src/stories"
+  ]
+}

@@ -1,0 +1,47 @@
+JSON report written to /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/.storybook/eval-results/baseline-story-render-report.json
+
+4:06:48 PM [vite] Internal server error: Failed to resolve import "../../.storybook/mock-data" from "src/components/WikiCard.stories.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/src/components/WikiCard.stories.tsx:2:47
+  2  |  import { testStory as _testStory, convertToFilePath } from "@storybook/addon-vitest/internal/test-utils";
+  3  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  4  |  import { mockArticles, mockLikedArticle } from "../../.storybook/mock-data";
+     |                                                  ^
+  5  |  import { WikiCard } from "./WikiCard";
+  6  |  const meta = {
+      at TransformPluginContext._formatError (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:47574:41)
+      at TransformPluginContext.error (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:47569:16)
+      at normalizeUrl (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:45818:23)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:45937:39
+      at async Promise.all (index 3)
+      at TransformPluginContext.transform (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:45864:7)
+      at EnvironmentPluginContainer.transform (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:47400:18)
+      at loadAndTransform (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:41198:27)
+4:06:48 PM [vite] Internal server error: Failed to resolve import "@vercel/analytics/react" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/src/App.tsx:4:26
+  3  |  import { WikiCard } from "./components/WikiCard";
+  4  |  import { Loader2, Search, X, Download } from "lucide-react";
+  5  |  import { Analytics } from "@vercel/analytics/react";
+     |                             ^
+  6  |  import { LanguageSelector } from "./components/LanguageSelector";
+  7  |  import { useLikedArticles } from "./contexts/LikedArticlesContext";
+      at TransformPluginContext._formatError (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:47574:41)
+      at TransformPluginContext.error (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:47569:16)
+      at normalizeUrl (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:45818:23)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:45937:39
+      at async Promise.all (index 4)
+      at TransformPluginContext.transform (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:45864:7)
+      at EnvironmentPluginContainer.transform (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:47400:18)
+      at loadAndTransform (file:///Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/node_modules/vite/dist/node/chunks/dep-M1IYMR16.js:41198:27)
+4:06:48 PM [vite] (client) Pre-transform error: Failed to resolve import "@vercel/analytics/react" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T08-54-45Z-19ec7a6d/project/frontend/src/App.tsx:4:26
+  3  |  import { WikiCard } from "./components/WikiCard";
+  4  |  import { Loader2, Search, X, Download } from "lucide-react";
+  5  |  import { Analytics } from "@vercel/analytics/react";
+     |                             ^
+  6  |  import { LanguageSelector } from "./components/LanguageSelector";
+  7  |  import { useLikedArticles } from "./contexts/LikedArticlesContext";
