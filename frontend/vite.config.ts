@@ -29,6 +29,9 @@ const playwrightProviderOptions =
 
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
+  optimizeDeps: {
+    include: ["@vercel/analytics/react", "lucide-react", "storybook/test"],
+  },
   plugins: [
     react(),
     tailwindcss(),
